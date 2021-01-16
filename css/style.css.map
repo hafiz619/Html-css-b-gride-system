@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["style.scss"],"sourcesContent":["*{\r\n    box-sizing: border-box;\r\n}\r\n\r\nul li{\r\n    background-color: #cccccc;\r\n    display: inline-block;\r\n  \r\n   \r\n}\r\n\r\n"],"file":"style.css"}

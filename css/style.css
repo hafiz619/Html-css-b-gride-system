@@ -1,0 +1,135 @@
+/* * {
+  box-sizing: border-box;
+} */
+div ul{
+background-color: #333333;
+
+height: 50px;
+}
+div ul li{
+    margin: 15px auto;
+  width: 10%;
+  color: white;
+  display: inline-block;
+}
+div ul li a{
+    color: #33ccff;
+    text-decoration: none;
+    
+}
+.header{
+    width: 1110px;
+    height: 700px;
+background-image: url("../img/header.jpg");
+background-size: cover;
+position: relative;
+}
+.ovrlay{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+}
+.ovrlay h1{
+    color: white;
+    margin: 200px ;
+ font-size:100px;
+}
+.ovrlay h1 span{
+   color: #00ccff;
+}
+.our {
+    margin: 10px 0;
+   width: 1000px;
+   text-align: center;
+
+}
+.text{
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.textinfo{
+    margin: 0 5px;
+  padding: 20px;
+    display: inline-block;
+    
+   text-align: justify;
+   font-size: 25px;
+   opacity: .7;
+}
+.img{
+ 
+    display: inline-block;
+    width: 500px;
+}
+.ourteam{
+      display: flex;
+justify-content: space-evenly;
+}
+
+.ourteam div img{
+    border: 3px solid #33ccff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.foot{
+   display: flex;
+   justify-content: space-evenly;
+    margin: 20px 0;
+    background-color: #333333;
+}
+.smedia{
+    display: inline-block;
+
+
+}
+.smedia h3{
+    margin-left: 70px;
+}
+.footurl li{
+    display: block;
+
+}
+.footer{
+    display: inline-block;
+}
+form input{
+   
+    border-radius: 10px;
+    margin: 5px 0;
+    padding: 5px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+form .user,form .email,form .message{
+    display: block;
+}
+form .message{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+form .sub{
+    margin: 5px 0;
+    padding: 5px;
+    border: 5px solid #00ccff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
